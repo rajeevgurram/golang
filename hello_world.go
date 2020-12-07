@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"./educative/lecture1/calculator"
+	"./educative/lecture1/strings"
 	"./educative/lecture1/temperature/conversion"
 )
 
@@ -21,6 +22,9 @@ func main() {
 	newLecture(1, "Temparature Conversion")
 	var celcius conversion.Celcius = 10
 	fmt.Printf("%vc is %vf \n", celcius, conversion.ToFahrenheit(celcius))
+
+	newLecture(1, "Strings")
+	strings.Run()
 }
 
 func newLecture(lectureNumber int, lectureName string) {
