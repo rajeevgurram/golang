@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"./educative/lecture1/calculator"
+	"./educative/lecture1/pointers"
 	"./educative/lecture1/strings"
 	"./educative/lecture1/temperature/conversion"
 )
@@ -25,6 +26,9 @@ func main() {
 
 	newLecture(1, "Strings")
 	strings.Run()
+
+	newLecture(1, "Pointers")
+	pointers.Run()
 }
 
 func newLecture(lectureNumber int, lectureName string) {
