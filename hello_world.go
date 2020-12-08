@@ -7,6 +7,11 @@ import (
 	"./educative/lecture1/pointers"
 	"./educative/lecture1/strings"
 	"./educative/lecture1/temperature/conversion"
+	"./educative/lecture2/loops"
+	"./educative/lecture2/season"
+	"./educative/lecture3/functions"
+	"./educative/lecture3/functions/defer_example"
+	"./educative/lecture3/functions/recursion"
 )
 
 func main() {
@@ -29,6 +34,24 @@ func main() {
 
 	newLecture(1, "Pointers")
 	pointers.Run()
+
+	newLecture(2, "Switch")
+	season.Run()
+
+	newLecture(2, "For")
+	loops.Run()
+
+	newLecture(3, "Functions")
+	functions.Run()
+
+	newLecture(3, "Defer Functions")
+	defer_example.Run()
+
+	newLecture(3, "Recursion")
+	recursion.Run()
+
+	newLecture(3, "Factorial")
+	fmt.Printf("Factorial for 10 is %d\n\n", recursion.Factorial(10))
 }
 
 func newLecture(lectureNumber int, lectureName string) {
