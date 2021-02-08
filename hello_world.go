@@ -25,32 +25,32 @@ func main() {
 	fmt.Printf("Mul of %d X %d = %d \n", num1, num2, calculator.Mul(num1, num2))
 	fmt.Printf("Div of %d / %d = %d \n", num1, num2, calculator.Div(num2, num1))
 
-	newLecture(1, "Temparature Conversion")
+	newLecture(2, "Temparature Conversion")
 	var celcius conversion.Celcius = 10
 	fmt.Printf("%vc is %vf \n", celcius, conversion.ToFahrenheit(celcius))
 
-	newLecture(1, "Strings")
+	newLecture(3, "Strings")
 	strings.Run()
 
-	newLecture(1, "Pointers")
+	newLecture(4, "Pointers")
 	pointers.Run()
 
-	newLecture(2, "Switch")
+	newLecture(5, "Switch")
 	season.Run()
 
-	newLecture(2, "For")
+	newLecture(6, "For")
 	loops.Run()
 
-	newLecture(3, "Functions")
+	newLecture(7, "Functions")
 	functions.Run()
 
-	newLecture(3, "Defer Functions")
+	newLecture(8, "Defer Functions")
 	defer_example.Run()
 
-	newLecture(3, "Recursion")
+	newLecture(9, "Recursion")
 	recursion.Run()
 
-	newLecture(3, "Factorial")
+	newLecture(10, "Factorial")
 	fmt.Printf("Factorial for 10 is %d\n\n", recursion.Factorial(10))
 }
 

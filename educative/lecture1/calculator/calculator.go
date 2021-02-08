@@ -12,7 +12,8 @@ func Sub(a, b int) int {
 
 // Mul 2 numbers
 func Mul(a, b int) int {
-	c := a * b
+	var c int = a * b
+	//c := a * b
 	return c
 }
 
